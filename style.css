@@ -1,0 +1,424 @@
+body {
+  background: linear-gradient(270deg, transparent, aqua);
+}
+
+.container {
+  /* margin: auto;
+  width: 200px;
+  padding: 20px;
+  background-color: rgb(18, 54, 216); */
+  text-align: center;
+  /* border: solid black 4px;
+  border-radius: 10px; */
+}
+
+/* .panel {
+  margin-bottom: 15px;
+}
+
+.btn-angka {
+  margin-bottom: 15px;
+}
+
+.btn-angka:hover {
+  box-shadow: 10px;
+}
+
+.btn-angka button,
+.btn-mat button {
+  cursor: pointer;
+}
+
+button {
+  margin: 5px;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.equal:hover {
+  background: green;
+  color: white;
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo img {
+  width: 200px;
+  display: block;
+  margin: auto;
+}
+
+.header {
+  margin: 1;
+}
+
+.nav-left,
+.nav-right {
+  background-color: rgb(119, 12, 105);
+}
+
+.nav-left ul,
+.nav-right ul {
+  list-style: none;
+}
+
+.nav-left a,
+.nav-right a {
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+  color: #fff;
+}
+
+.nav-left a:hover {
+  background-color: rgb(211, 102, 102);
+}
+
+.nav-right a:hover {
+  background-color: rgb(211, 102, 102);
+}
+
+@media screen and (min-width: 560px) {
+  .header {
+    width: 960px;
+    margin: auto;
+    display: flex;
+    margin-top: 1%;
+    justify-content: space-between;
+  }
+
+  .nav-left ul {
+    display: flex;
+  }
+
+  .nav-right ul {
+    display: flex;
+  }
+
+  .nav-left,
+  .nav-right {
+    background: none;
+  }
+
+  .nav-left a,
+  .nav-right a {
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    color: black;
+  }
+}
+
+/* main */
+
+.main {
+  margin-top: 20px;
+}
+
+.main-left img {
+  width: 250px;
+  display: block;
+  margin: auto;
+}
+
+.main-right {
+  text-align: center;
+  margin-top: 5px;
+}
+
+.main-right p {
+  line-height: 20px;
+  margin-bottom: 50px;
+}
+
+@media (min-width: 560px) {
+  .main {
+    width: 960px;
+    margin: auto;
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+  }
+
+  .main-left img {
+    width: 500px;
+  }
+
+  .main-right {
+    margin: auto;
+    text-align: left;
+    margin-left: 30px;
+  }
+
+  .main-right h2 {
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+}
+
+/* produk */
+
+.display {
+  margin-top: 1%;
+  text-align: center;
+  color: red;
+}
+
+.image img {
+  width: 250px;
+  display: block;
+  margin: auto;
+}
+
+.produk-content {
+  text-align: center;
+  margin: 20px;
+}
+
+.deskripsi p {
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+
+.title h2 a {
+  text-decoration: none;
+  color: black;
+}
+
+.harga h3 {
+  text-decoration: line-through;
+  font-size: 18px;
+}
+
+@media (min-width: 560px) {
+  .produk {
+    width: 960px;
+    margin: auto;
+    display: flex;
+  }
+
+  .produk-content {
+    height: 300px;
+  }
+
+  .image {
+    height: 200px;
+    width: 200px;
+  }
+
+  .image img {
+    width: 200px;
+    display: block;
+    margin: auto;
+  }
+
+  .display {
+    font-size: 30px;
+  }
+
+  .title h2 a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .harga h3 {
+    text-decoration: line-through;
+    font-size: 18px;
+  }
+}
+
+/* informasi */
+
+.info {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.info-content {
+  height: 70px;
+  width: 180px;
+  display: flex;
+  align-items: center;
+}
+
+.icon img {
+  width: 50px;
+  display: block;
+  margin-right: 10px;
+}
+
+.info-isi h2 {
+  font-size: 15px;
+}
+
+.info-isi p {
+  font-size: 13px;
+}
+
+@media (min-width: 560px) {
+  .info {
+    width: 960px;
+    margin: auto;
+    justify-content: space-between;
+  }
+}
+
+/* medsos */
+
+.medsos-icon img {
+  width: 50px;
+  margin: 10px;
+}
+
+.medsos-icon {
+  display: flex;
+  justify-content: center;
+}
+
+.medsos-isi {
+  text-align: center;
+  padding: 10px;
+  font-size: 15px;
+}
+
+.medsos-form {
+  height: 50px;
+  background: rgb(122, 119, 119);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.medsos-form form input {
+  width: 200px;
+  height: 25px;
+  background: rgb(163, 227, 238);
+  border: none;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  margin-right: -5px;
+}
+
+.medsos-form form input[type='email'] {
+  padding: 10px;
+}
+
+.medsos-form form button {
+  height: 25px;
+  padding: 5px;
+  text-transform: uppercase;
+  background: rgb(163, 227, 238);
+  border: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+@media (min-width: 560px) {
+  .medsos {
+    width: 960px;
+    margin: auto;
+    margin-top: 20px;
+  }
+}
+
+/* footer */
+
+footer {
+  margin-bottom: 5px;
+  background: rgb(122, 119, 119);
+  color: #fff;
+  display: flex;
+}
+
+.logo-bank img {
+  width: 70px;
+}
+
+.identitas {
+  flex: 1;
+}
+
+.sitemap {
+  flex: 1;
+}
+
+.sitemap li {
+  list-style: none;
+  padding-top: 10px;
+}
+
+.sitemap li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.sitemap a {
+  font-size: 12px;
+}
+
+.sitemap h2,
+.identitas h2,
+.payment h2 {
+  font-size: 14px;
+}
+
+.identitas p {
+  font-size: 12px;
+}
+
+.payment {
+  flex: 1;
+}
+
+.payment h2 {
+  margin-bottom: 5px;
+}
+
+.bank p {
+  font-size: 10px;
+}
+
+.bank h3 {
+  font-size: 12px;
+}
+
+.bank {
+  padding-bottom: 15px;
+}
+
+@media (min-width: 560px) {
+  footer {
+    width: 960px;
+    margin: auto;
+    padding: 20px;
+  }
+
+  .sitemap h2,
+  .identitas h2,
+  .payment h2 {
+    font-size: 20px;
+  }
+
+  .identitas p {
+    margin-top: 15px;
+    font-size: 12px;
+  }
+
+  .sitemap p {
+    font-size: 15px;
+  }
+}
+
+.create {
+  text-align: center;
+  line-height: 100px;
+}
