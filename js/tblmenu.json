@@ -1,0 +1,32 @@
+[
+    {
+    "idmenu" : 1,
+    "idkategori": 1,
+    "menu": "apel manalagi",
+    "harga": 3000,
+    "warna" : ["merah", "kuning", "hijau"],
+    "stop": true,
+    "keterangan" : null
+  },
+  
+  {
+    "idmenu" : 2,
+    "idkategori": 1,
+    "menu" : "Pisang",
+    "harga" : 3000,
+    "warna" : ["merah", "kuning"],
+    "stop" : false,
+    "keterangan" : null
+  },
+
+  {
+    "idmenu" : 3,
+    "idkategori": 2,
+    "menu" : "Nasi bakar",
+    "harga" : 20000,
+    "warna" : ["merah", "kuning"],
+    "stop" : true,
+    "keterangan" : null
+  }
+  
+  ]
